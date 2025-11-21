@@ -17,3 +17,5 @@ npm install
 
 systemctl daemon-reload
 
+systemctl enable catalogue
+systemctl start catalogue
