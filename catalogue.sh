@@ -20,7 +20,7 @@ npm install
 systemctl daemon-reload
 
 systemctl enable catalogue
-systemctl start catalogue
+systemctl restart catalogue
 
 dnf install mongodb-mongosh -y
 
